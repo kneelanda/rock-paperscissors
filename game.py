@@ -1,5 +1,7 @@
 print("Rock Paper Scissors Game")
 
+import random
+
 #User inputs
 
 user_choice = input("Please make a choice('rock','paper','scissors'): ")
