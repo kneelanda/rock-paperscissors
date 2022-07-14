@@ -1,4 +1,4 @@
-print("Welcome to 'Rock, Paper, Scissors, Shoot!'")
+print("Welcome, Player One, to 'Rock, Paper, Scissors, Shoot!'")
 
 import random
 
