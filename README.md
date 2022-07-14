@@ -73,4 +73,4 @@ The computer chose: scissors
 Rock crushes scissors. You win! Thanks for playing. Feel free to play again!
 
 
-**Note - much of this README file was adapted from the tic-tac-toe example provided from professor rossetti
+## **Note - much of this README file was adapted from the tic-tac-toe example provided from professor rossetti
