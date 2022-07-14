@@ -1,4 +1,4 @@
-print("Rock, Paper, Scissors, Shoot!")
+print("Welcome to 'Rock, Paper, Scissors, Shoot!'")
 
 import random
 
@@ -7,7 +7,6 @@ import random
 user_choice = input("Please make a choice('rock','paper','scissors'): ")
 user_choice=user_choice.lower()
 print("You chose: " + user_choice)
-
 
 #Validate user inputs 
 
@@ -21,28 +20,26 @@ if user_choice not in valid_options:
 computer_choice = random.choice(['rock' , 'paper' , 'scissors'])
 print("The computer chose: " + computer_choice)
 
-#Determine the winner
+#Determine the winner & display results
 
 if user_choice==computer_choice:
     print("It's a tie!")
     exit()
 
 if user_choice=="rock" and computer_choice=="scissors":
-    print("Rock crushes scissors. You win!")
+    print("Rock crushes scissors. You win! Thanks for playing. Feel free to play again!")
     
 if user_choice=="paper" and computer_choice=="rock":
-    print("Paper covers rock. You win!")
+    print("Paper covers rock. You win! Thanks for playing. Feel free to play again!")
 
 if user_choice=="scissors" and computer_choice=="paper":
-    print("Scissors cut paper. You win!")
+    print("Scissors cut paper. You win! Thanks for playing. Feel free to play again!")
 
 if user_choice=="scissors" and computer_choice=="rock":
-    print("Rock crushes scissors. You lose!")
+    print("Rock crushes scissors. You lose. It's ok, try again!")
         
 if user_choice=="rock" and computer_choice=="paper":
-    print("Paper covers rock. You lose!")
+    print("Paper covers rock. You lose. It's ok, try again!")
 
 if user_choice=="paper" and computer_choice=="scissors":
-    print("Scissors cut paper. You lose!")
-
-#Display results 
+    print("Scissors cut paper. You lose. It's ok, try again!")
