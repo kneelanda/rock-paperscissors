@@ -1,4 +1,4 @@
-print("Rock Paper Scissors Game")
+print("Rock, Paper, Scissors, Shoot!")
 
 import random
 
@@ -6,6 +6,9 @@ import random
 
 user_choice = input("Please make a choice('rock','paper','scissors'): ")
 print("You chose: " + user_choice)
+
+computer_choice = random.choice(['rock' , 'paper' , 'scissors'])
+print("The computer chose: " + computer_choice)
 
 #Validate user inputs 
 
