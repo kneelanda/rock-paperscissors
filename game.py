@@ -23,7 +23,7 @@ print("The computer chose: " + computer_choice)
 #Determine the winner & display results
 
 if user_choice==computer_choice:
-    print("It's a tie!")
+    print("It's a tie! Please play again.")
     exit()
 
 if user_choice=="rock" and computer_choice=="scissors":
