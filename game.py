@@ -23,9 +23,26 @@ print("The computer chose: " + computer_choice)
 
 #Determine the winner
 
+if user_choice==computer_choice:
+    print("It's a tie!")
+    exit()
 
+if user_choice=="rock" and computer_choice=="scissors":
+    print("Rock crushes scissors. You win!")
+    
+if user_choice=="paper" and computer_choice=="rock":
+    print("Paper covers rock. You win!")
+
+if user_choice=="scissors" and computer_choice=="paper":
+    print("Scissors cut paper. You win!")
+
+if user_choice=="scissors" and computer_choice=="rock":
+    print("Rock crushes scissors. You lose!")
+        
+if user_choice=="rock" and computer_choice=="paper":
+    print("Paper covers rock. You lose!")
+
+if user_choice=="paper" and computer_choice=="scissors":
+    print("Scissors cut paper. You lose!")
 
 #Display results 
-
-#
-# 
