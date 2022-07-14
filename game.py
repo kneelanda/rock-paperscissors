@@ -36,10 +36,10 @@ if user_choice=="scissors" and computer_choice=="paper":
     print("Scissors cut paper. You win! Thanks for playing. Feel free to play again!")
 
 if user_choice=="scissors" and computer_choice=="rock":
-    print("Rock crushes scissors. You lose. It's ok, try again!")
+    print("Rock crushes scissors. You lose. Thanks for playing, try again!")
         
 if user_choice=="rock" and computer_choice=="paper":
-    print("Paper covers rock. You lose. It's ok, try again!")
+    print("Paper covers rock. You lose. Thanks for playing, try again!")
 
 if user_choice=="paper" and computer_choice=="scissors":
-    print("Scissors cut paper. You lose. It's ok, try again!")
+    print("Scissors cut paper. You lose. Thanks for playing, try again!")

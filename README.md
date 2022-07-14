@@ -49,20 +49,20 @@ Here are some demonstrations of what gameplay looks like:
 
 Example 1: 
 --->> python game.py
-Welcome to 'Rock, Paper, Scissors, Shoot!'
+Welcome, Player One, to 'Rock, Paper, Scissors, Shoot!'
 Please make a choice('rock','paper','scissors'): rock
 You chose: rock
 The computer chose: rock
-It's a tie!
+It's a tie! Please play again.
 
 
 Example 2:
 --->> python game.py
-Welcome to 'Rock, Paper, Scissors, Shoot!'
+Welcome, Player One, to 'Rock, Paper, Scissors, Shoot!'
 Please make a choice('rock','paper','scissors'): rock
 You chose: rock
 The computer chose: paper
-Paper covers rock. You lose. It's ok, try again!
+Paper covers rock. You lose. Thanks for playing, try again!
 
 Example 3:
 --->> python game.py 
